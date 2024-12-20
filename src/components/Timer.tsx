@@ -162,9 +162,9 @@ export default function Timer() {
     // Render the default theme name so server and client match until hydrated:
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-black">
-        <div className="inline-flex items-center">
+        <div className="inline-flex items-center mb-2">
           <svg
-            className="animate-spin mr-3 h-8 w-8 text-white"
+            className="animate-spin mr-3 h-7 w-7 text-white"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -183,7 +183,7 @@ export default function Timer() {
               d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
             ></path>
           </svg>
-          <h1 className="text-4xl font-bold text-white mb-2">Loading Checkpoint</h1>
+          <h1 className="text-3xl font-semibold">Loading Bonfire</h1>
         </div>
       </div>
     );
@@ -200,6 +200,7 @@ export default function Timer() {
         sizes="(max-width: 768px) 100vw, 1920px"
         style={{ objectFit: "cover" }}
         className="absolute inset-0 z-0"
+        unoptimized
       />
 
       {/* Particle Effects */}
@@ -298,7 +299,7 @@ export default function Timer() {
         <button
           onClick={() => {
             playMenuSound();
-            window.open('https://github.com/yourusername/yourrepo', '_blank');
+            window.open('https://github.com/JPerez00/bonfire', '_blank');
           }}
           className="px-2.5 py-2 rounded-full text-white bg-zinc-800 hover:bg-zinc-700 shadow-inner shadow-white/10"
         >
