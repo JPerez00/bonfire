@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tsparticles/engine": "^3.7.1",
+    "@vercel/analytics": "^1.4.1",
     "date-fns": "^4.1.0",
     "howler": "^2.2.4",
     "next": "14.2.16",
