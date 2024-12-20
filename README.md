@@ -6,7 +6,7 @@ Bonfire is your focus checkpoint. Rest, refocus, and level up your productivity 
 
 ## Live Project
 
-[https://bonfire.vercel.app/](https://bonfire.vercel.app/)
+[https://bonfire-ten.vercel.app/](https://bonfire-ten.vercel.app/)
 
 ## Features
 
