@@ -1,5 +1,5 @@
 {
-  "name": "checkpoint",
+  "name": "bonfire",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tsparticles/engine": "^3.7.1",
+    "date-fns": "^4.1.0",
+    "howler": "^2.2.4",
+    "next": "14.2.16",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.16"
+    "react-icons": "^5.4.0",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^2.12.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/howler": "^2.2.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-icons": "^3.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.16",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.16"
+    "typescript": "^5"
   }
 }
