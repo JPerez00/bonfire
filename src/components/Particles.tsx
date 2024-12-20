@@ -3,19 +3,19 @@
 import React, { useCallback, useMemo } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { ISourceOptions } from "tsparticles-engine";
+import { ISourceOptions, Engine, Container } from "tsparticles-engine";
 
 interface ParticlesComponentProps {
   preset: "fire" | "snow" | "none";
 }
 
 const ParticlesComponent: React.FC<ParticlesComponentProps> = ({ preset }) => {
-  const particlesInit = useCallback(async (engine: any) => {
+  const particlesInit = useCallback(async (engine: Engine) => {
     // Load the full tsParticles package
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container: any) => {
+  const particlesLoaded = useCallback(async (_container?: Container) => {
     // You can use this callback to interact with the particles instance
   }, []);
 
