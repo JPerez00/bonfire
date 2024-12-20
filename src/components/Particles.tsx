@@ -15,6 +15,7 @@ const ParticlesComponent: React.FC<ParticlesComponentProps> = ({ preset }) => {
     await loadFull(engine);
   }, []);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const particlesLoaded = useCallback(async (_container?: Container) => {
     // You can use this callback to interact with the particles instance
   }, []);
