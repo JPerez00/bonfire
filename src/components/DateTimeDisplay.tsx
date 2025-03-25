@@ -17,7 +17,7 @@ export function DateTimeDisplay() {
   }, []);
 
   return (
-    <div className="font-mono text-xs text-zinc-300"> {/* Adjust text color as needed */}
+    <div className="font-mono text-xs text-zinc-300">
       <div className="mb-0.5 tracking-tight">{format(currentTime, 'MMM d, yyyy')}</div> {/* Dec 18, 2024 */}
       <div>{format(currentTime, 'h:mm:ss a')}</div> {/* 5:53:25 PM */}
     </div>
